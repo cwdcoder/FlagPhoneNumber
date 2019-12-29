@@ -104,6 +104,7 @@ open class FPNTextField: UITextField {
 		setupPhoneCodeTextField()
 		setupLeftView()
 
+        textAlignment = .left
 		keyboardType = .numberPad
 		autocorrectionType = .no
 		addTarget(self, action: #selector(didEditText), for: .editingChanged)
